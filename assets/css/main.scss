@@ -386,3 +386,52 @@ body {
         border: none;
     }
 }
+.footer {
+    background: #161513;
+    padding: 66px 0 25px;
+    &-top {
+        margin-bottom: 48px;
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__list {
+            display: flex;
+            &-item + &-item {
+                margin-left: 46px;
+            }
+        }
+        &__list-link {
+            font-size: 16px;
+            line-height: 24px;
+            text-align: center;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+    }
+    &-bottom {
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__copy {
+            font-size: 14px;
+            line-height: 24px;
+            color: #F2F1EF;
+        }
+        &__list {
+            display: flex;
+            &-item + &-item {
+                margin-left: 16px;
+            }
+            &-item {
+                transition: all .5s;
+                &:hover {
+                    transform: translateY(-10%);
+                }
+            }
+        }
+    }
+}
