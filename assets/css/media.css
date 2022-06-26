@@ -13,10 +13,34 @@
     line-height: 42px;
     margin-bottom: 20px;
   }
+  .about__wrapper {
+    flex-wrap: wrap;
+    text-align: center;
+  }
+  .about__left {
+    margin: 0 auto 30px;
+  }
+  .about__left-suptitle {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 780px) {
   .intro__banner {
     display: none;
+  }
+  .about__items {
+    flex-wrap: wrap;
+  }
+  .about__item {
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  .about__right-wrapper {
+    flex-wrap: wrap;
+  }
+  .about__right-item {
+    width: 100%;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 550px) {
@@ -45,10 +69,39 @@
   .header__button {
     margin: 0 auto;
   }
+  .about__left-title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+  .about__right-suptitle {
+    font-size: 25px;
+    line-height: 31px;
+  }
+  .about__right-text {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .about__item {
+    padding: 10px 30px;
+  }
+  .about__wrapper {
+    margin-bottom: 40px;
+  }
+  .about__item-subtitle {
+    font-size: 12px;
+    line-height: 21px;
+  }
+  .about__item-title {
+    font-size: 40px;
+    line-height: 47px;
+  }
 }
 @media (max-width: 400px) {
   .intro__inform-button {
     display: block;
     margin-bottom: 10px;
+  }
+  .about__item {
+    padding: 10px 10px;
   }
 }
