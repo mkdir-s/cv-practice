@@ -317,6 +317,10 @@ body {
   margin-bottom: 120px;
 }
 
+.awards .container {
+  padding: 0 110px;
+}
+
 .awards__img {
   text-align: center;
   margin-bottom: 22px;
@@ -411,5 +415,92 @@ body {
 
 .awards-right__text + .awards-right__text {
   margin-left: 16px;
+}
+
+.portfolio {
+  margin-bottom: 120px;
+}
+
+.portfolio .container {
+  padding: 0 110px;
+}
+
+.portfolio__img {
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.portfolio__title {
+  font-size: 45px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 1.44px;
+  color: #161513;
+  margin-bottom: 17px;
+}
+
+.portfolio__subtitle {
+  margin-bottom: 60px;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  color: #161513;
+}
+
+.portfolio__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.portfolio__item + .portfolio__item {
+  margin-top: 95px;
+}
+
+.portfolio__item-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.portfolio__item-img {
+  margin-right: 44px;
+}
+
+.portfolio-inform {
+  padding: 21px 0;
+}
+
+.portfolio-inform__status {
+  padding: 4px 12px;
+  font-size: 18px;
+  line-height: 32px;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  background: #E94D35;
+  margin-bottom: 30px;
+  display: inline-block;
+}
+
+.portfolio-inform__title {
+  font-size: 45px;
+  line-height: 56px;
+  letter-spacing: 1.44px;
+  color: #161513;
+  margin-bottom: 50px;
+}
+
+.portfolio-inform__link {
+  font-size: 20px;
+  line-height: 32px;
+  color: #161513;
+  text-decoration: none;
 }
 /*# sourceMappingURL=main.css.map */
