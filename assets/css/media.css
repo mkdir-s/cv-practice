@@ -1,3 +1,24 @@
+@media (max-width: 920px) {
+  .intro__wrapper {
+    flex-wrap: wrap;
+  }
+  .intro__inform {
+    margin: 0 auto 30px;
+  }
+  .intro__img {
+    margin: 0 auto;
+  }
+  .intro__inform-title {
+    font-size: 32px;
+    line-height: 42px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 780px) {
+  .intro__banner {
+    display: none;
+  }
+}
 @media (max-width: 550px) {
   .header__wrapper {
     flex-direction: column;
@@ -23,5 +44,11 @@
   }
   .header__button {
     margin: 0 auto;
+  }
+}
+@media (max-width: 400px) {
+  .intro__inform-button {
+    display: block;
+    margin-bottom: 10px;
   }
 }
