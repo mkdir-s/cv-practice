@@ -49,20 +49,6 @@ table {
   border-spacing: 0;
 }
 
-@media (max-width: 550px) {
-  .header__wrapper {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .header__logo {
-    width: 100%;
-    text-align: center;
-  }
-  .header-nav {
-    width: 100%;
-  }
-}
-
 *,
 *::before,
 *::after {
@@ -80,7 +66,7 @@ body {
 
 .container {
   max-width: 1300px;
-  padding: 0 10px;
+  padding: 0 30px;
   margin: 0 auto;
 }
 
