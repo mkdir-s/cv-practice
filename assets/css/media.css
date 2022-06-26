@@ -52,6 +52,12 @@
   .portfolio-inform {
     margin: 0 auto;
   }
+  .subscribe__wrapper {
+    flex-wrap: wrap;
+  }
+  .subscribe__left-title {
+    margin-bottom: 30px;
+  }
 }
 @media (max-width: 780px) {
   .intro__banner {
@@ -79,6 +85,23 @@
   }
   .portfolio .container {
     padding: 0;
+  }
+  .intro__img img {
+    width: 90%;
+    object-fit: cover;
+  }
+  .subscribe .container {
+    padding: 0 10px;
+  }
+  .about .container {
+    padding: 0 10px;
+  }
+  .subscribe__right-input {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .subscribe__right-button {
+    width: 100%;
   }
 }
 @media (max-width: 550px) {
