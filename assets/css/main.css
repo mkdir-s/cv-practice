@@ -503,4 +503,81 @@ body {
   color: #161513;
   text-decoration: none;
 }
+
+.subscribe {
+  padding: 60px 0;
+  background: #E6E3DE;
+}
+
+.subscribe .container {
+  padding: 0 110px;
+}
+
+.subscribe__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.subscribe__left-title {
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+  color: #161513;
+}
+
+.subscribe__right-input {
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+  color: #161513;
+  padding: 12px 22px;
+  border: 2px solid #161513;
+  background-color: transparent;
+  margin-right: 24px;
+}
+
+.subscribe__right-input ::-webkit-input-placeholder {
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+  color: #161513;
+}
+
+.subscribe__right-input :-ms-input-placeholder {
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+  color: #161513;
+}
+
+.subscribe__right-input ::-ms-input-placeholder {
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+  color: #161513;
+}
+
+.subscribe__right-input ::placeholder {
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+  color: #161513;
+}
+
+.subscribe__right-button {
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+  color: #FFFFFF;
+  padding: 12px 15px;
+  background: #131416;
+  border: none;
+}
 /*# sourceMappingURL=main.css.map */
