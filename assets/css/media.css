@@ -23,6 +23,35 @@
   .about__left-suptitle {
     margin: 0 auto;
   }
+  .awards__item-wrapper {
+    flex-wrap: wrap;
+  }
+  .awards-left {
+    margin: 0 auto 20px;
+  }
+  .awards-right {
+    margin: 0 auto;
+  }
+  .portfolio__item-wrapper {
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .portfolio__item-img {
+    margin: 0 auto;
+  }
+  .portfolio__item + .portfolio__item{
+    margin-top: 20px;
+  }
+  .portfolio-inform__status {
+    margin-bottom: 5px;
+  }
+  .portfolio-inform__title {
+    margin-bottom: 10px;
+  }
+  .portfolio-inform {
+    margin: 0 auto;
+  }
 }
 @media (max-width: 780px) {
   .intro__banner {
@@ -41,6 +70,15 @@
   .about__right-item {
     width: 100%;
     margin-bottom: 20px;
+  }
+  .awards-left {
+    flex-wrap: wrap;
+  }
+  .awards-left__num {
+    margin: 0 auto 10px;
+  }
+  .portfolio .container {
+    padding: 0;
   }
 }
 @media (max-width: 550px) {
@@ -95,6 +133,26 @@
     font-size: 40px;
     line-height: 47px;
   }
+  .awards-left__inform-title {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 10px;
+  }
+  .awards-left__inform-subtitle {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  .awards-right__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+  .awards .container {
+    padding: 0 40px;
+  }
+  .portfolio__item-img img {
+    width: 75%;
+    object-fit: cover;
+  }
 }
 @media (max-width: 400px) {
   .intro__inform-button {
@@ -103,5 +161,12 @@
   }
   .about__item {
     padding: 10px 10px;
+  }
+  .awards__item {
+    padding: 15px 19px;
+  }
+  .portfolio-inform__title {
+    font-size: 25px;
+    line-height: 35px;
   }
 }
