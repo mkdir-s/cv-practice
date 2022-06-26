@@ -312,4 +312,104 @@ body {
 .about__item_black .about__item-subtitle {
   color: #FFFFFF;
 }
+
+.awards {
+  margin-bottom: 120px;
+}
+
+.awards__img {
+  text-align: center;
+  margin-bottom: 22px;
+}
+
+.awards__title {
+  font-size: 45px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 1.44px;
+  color: #161513;
+  margin-bottom: 9px;
+}
+
+.awards__subtitle {
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 1.44px;
+  text-transform: uppercase;
+  color: #161513;
+  margin-bottom: 60px;
+}
+
+.awards__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.awards__item {
+  padding: 37px 34px;
+  border: 2px solid #161513;
+  margin-bottom: 24px;
+}
+
+.awards__item-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.awards__item-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.awards-left__num {
+  margin-right: 24px;
+  padding: 8px 20px;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+  background: #E94D35;
+}
+
+.awards-left__inform-title {
+  font-size: 23px;
+  line-height: 32px;
+  letter-spacing: 0.48px;
+  color: #161513;
+}
+
+.awards-left__infrom-subtitle {
+  font-size: 18px;
+  line-height: 32px;
+  color: #161513;
+}
+
+.awards-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.awards-right__text {
+  font-size: 16px;
+  line-height: 32px;
+  color: #161513;
+}
+
+.awards-right__text + .awards-right__text {
+  margin-left: 16px;
+}
 /*# sourceMappingURL=main.css.map */
